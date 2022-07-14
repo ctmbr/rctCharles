@@ -1,7 +1,10 @@
 import React, { Component } from "react";
-// import Component from "./components/Component";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Nav from "./components/Nav";
+import Project from "./components/Project";
 function App() {
-  return <Component />;
+  return <Project />;
 }
 
 export default App;
