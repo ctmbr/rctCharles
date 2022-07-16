@@ -6,10 +6,12 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import Project from "./components/Project";
+
 function App() {
   return (
     <>
       <Header />
+      <Nav />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<AboutMe />} />
