@@ -1,0 +1,10 @@
+@import "btn.css";
+
+.project-style {
+    background-color: #2d1e64;
+    padding: 20px 20px 20px;
+    border: 2px dashed lightblue;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,19 +1,20 @@
 import React from "react";
+import "./styles/btn.css";
 
 export default function Contact() {
   return (
     <nav>
-      <a class="btn" href="mailto:ctmbr@protonmail.com">
+      <a className="btn" href="mailto:ctmbr@protonmail.com">
         Email
       </a>
-      <a class="btn" href="https://github.com/ctmbr">
+      <a className="btn" href="https://github.com/ctmbr">
         Github
       </a>
-      <a class="btn" href="./Assets/pdf/technicalResume.pdf">
+      <a className="btn" href="./Assets/pdf/technicalResume.pdf">
         Resume
       </a>
       <a
-        class="btn"
+        className="btn"
         href="https://www.linkedin.com/in/charles-schneider-ctmbr/"
       >
         LinkedIn

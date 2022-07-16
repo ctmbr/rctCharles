@@ -1,0 +1,21 @@
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+.img {
+    max-height: 150px;
+    border-radius: 25%;
+}
+
+img:hover {
+    background: transparent;
+    outline-color: #6e47fd;
+    color: #6e47fd;
+    background-size: 152% 100%;
+    background: #6e47fd;
+    outline: 2px solid #6e47fd;
+    flex-direction: row;
+}
