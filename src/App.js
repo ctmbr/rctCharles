@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="app-wrapper">
       <Header />
-      <Nav />
       <div className="flex-grow-child">
         <BrowserRouter>
+          <Nav />
           <Routes>
             <Route path="/" element={<AboutMe />} />
             <Route path="/projects" element={<Project />} />
