@@ -2,5 +2,5 @@ import React from "react";
 import "./styles/footer.css";
 
 export default function Footer() {
-  return <div>lalala</div>;
+  return <footer>Thank you for visiting</footer>;
 }
