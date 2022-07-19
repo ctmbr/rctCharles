@@ -13,20 +13,22 @@ const projects = [
 
 export default function Project() {
   return (
-    <>
+    <section className="blade">
       {projects.map((project) => (
-        <div className="projectStyle">
-          <h2>{project.name}</h2>
-          <a href={project.liveURL}>
-            <img alt="" src={project.img} />
-          </a>
-          <div>
-            <a className="btn" href={project.repositoryLink}>
-              repository
+        <section>
+          <div className="projectStyle">
+            <h2>{project.name}</h2>
+            <a href={project.liveURL}>
+              <img alt="" src={project.img} />
             </a>
+            <div>
+              <a className="btn" href={project.repositoryLink}>
+                repository
+              </a>
+            </div>
           </div>
-        </div>
+        </section>
       ))}
-    </>
+    </section>
   );
 }

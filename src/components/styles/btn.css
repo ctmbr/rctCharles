@@ -19,3 +19,13 @@
     border-color: #6e47fd;
     color: #6e47fd;
 }
+
+.blade {
+    background-size: 152% 100%;
+    background: linear-gradient(120deg,
+            #1c99fe 20.69%,
+            #7644ff 50.19%,
+            #3d20a5b4 89.69%);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}

@@ -12,7 +12,7 @@ export default function Nav() {
           <a href="contact">Contact</a>
         </li>
         <li>
-          <a href="portfolio">Portfolio</a>
+          <a href="projects">Portfolio</a>
         </li>
       </ul>
     </nav>
