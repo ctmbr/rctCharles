@@ -10,18 +10,20 @@ import "./components/styles/app.css";
 
 function App() {
   return (
-    <>
+    <div className="app-wrapper">
       <Header />
       <Nav />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<AboutMe />} />
-          <Route path="/projects" element={<Project />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </BrowserRouter>
+      <div className="flex-grow-child">
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<AboutMe />} />
+            <Route path="/projects" element={<Project />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
