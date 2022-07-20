@@ -10,7 +10,7 @@ export default function Contact() {
       <a className="btn" href="https://github.com/ctmbr">
         Github
       </a>
-      <a className="btn" href="./Assets/pdf/technicalResume.pdf">
+      <a className="btn" href="./pdf/technicalResume.pdf">
         Resume
       </a>
       <a
