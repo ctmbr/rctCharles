@@ -1,10 +1,23 @@
 @import "btn.css";
 
+.projects-container {
+
+
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 50%;
+}
+
 .project-style {
     background-color: #2d1e64;
     padding: 20px 20px 20px;
-    border: 2px dashed lightblue;
+    border: 2px #6e47fd;
     border-radius: 30px;
     display: flex;
+    flex-wrap: inherit;
     flex-direction: column;
+    gap: 30px;
 }
