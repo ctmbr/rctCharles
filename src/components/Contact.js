@@ -1,4 +1,5 @@
 import React from "react";
+import technicalResume from "./pdf/technicalResume.pdf";
 import "./styles/btn.css";
 
 export default function Contact() {
@@ -10,7 +11,7 @@ export default function Contact() {
       <a className="btn" href="https://github.com/ctmbr">
         Github
       </a>
-      <a className="btn" href="./pdf/technicalResume.pdf">
+      <a className="btn" href={technicalResume}>
         Resume
       </a>
       <a
