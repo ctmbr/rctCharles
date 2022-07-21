@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/rctCharles/static/css/main.590e21f8.css",
-    "main.js": "/rctCharles/static/js/main.8f397c1b.js",
+    "main.css": "/rctCharles/static/css/main.37ef07b3.css",
+    "main.js": "/rctCharles/static/js/main.6f34000c.js",
+    "static/media/Charles.jpg": "/rctCharles/static/media/Charles.c42453e5468342e3cfb9.jpg",
     "static/media/portfolio.png": "/rctCharles/static/media/portfolio.14b5db7df0a34fc99b5b.png",
     "static/media/expressNote.png": "/rctCharles/static/media/expressNote.9d469b4051ce42f52923.png",
     "static/media/technicalResume.pdf": "/rctCharles/static/media/technicalResume.61660a5698c830c2b8ee.pdf",
@@ -10,11 +11,11 @@
     "static/media/workCalendar.png": "/rctCharles/static/media/workCalendar.04dd91654260f1540c71.png",
     "static/media/dotify.png": "/rctCharles/static/media/dotify.0ec9e0e634a0bd57b092.png",
     "index.html": "/rctCharles/index.html",
-    "main.590e21f8.css.map": "/rctCharles/static/css/main.590e21f8.css.map",
-    "main.8f397c1b.js.map": "/rctCharles/static/js/main.8f397c1b.js.map"
+    "main.37ef07b3.css.map": "/rctCharles/static/css/main.37ef07b3.css.map",
+    "main.6f34000c.js.map": "/rctCharles/static/js/main.6f34000c.js.map"
   },
   "entrypoints": [
-    "static/css/main.590e21f8.css",
-    "static/js/main.8f397c1b.js"
+    "static/css/main.37ef07b3.css",
+    "static/js/main.6f34000c.js"
   ]
 }
